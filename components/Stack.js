@@ -1,15 +1,18 @@
 import { techStack } from '@/data/siteMetadata'
+import Image from 'next/image'
 
 function Stack() {
   return (
-    <div>
+    <div className="flex gap-7">
       {techStack.map((t, i) => (
-        <strong
+        <Image
           key={i}
-          className="mx-1 rounded border border-current px-3 text-[12px] font-medium lowercase text-blue-500"
-        >
-          {t}
-        </strong>
+          className="rounded-xl"
+          width={50}
+          height={45}
+          src={`/static/images/${t}`}
+          alt=""
+        />
       ))}
     </div>
   )

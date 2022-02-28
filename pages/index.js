@@ -23,7 +23,7 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text py-10 py-2 text-6xl font-extrabold text-transparent sm:text-6xl">
+          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text py-10 text-6xl font-extrabold text-transparent sm:text-6xl">
             Front-End Developer.
             <span className="italic sm:block "></span>
           </h1>
