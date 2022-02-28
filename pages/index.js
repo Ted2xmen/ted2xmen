@@ -1,13 +1,15 @@
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
+import Info from '@/components/Info'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 
 import NewsletterForm from '@/components/NewsletterForm'
+import OneRow from '@/components/OneRow'
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 3
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -21,10 +23,16 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text py-2 text-3xl font-extrabold text-transparent sm:text-5xl">
+          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text py-10 py-2 text-6xl font-extrabold text-transparent sm:text-6xl">
             Front-End Developer.
-            <span className="sm:block">Self taught.</span>
+            <span className="italic sm:block "></span>
           </h1>
+          <div className="flex justify-end">
+            <Info />
+          </div>
+
+          <OneRow />
+
           <h1 className="text-1xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
             Son Yazılar
           </h1>
@@ -63,7 +71,7 @@ export default function Home({ posts }) {
                             ))}
                           </div>
                         </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                        <div className="prose max-w-none text-gray-700 dark:text-gray-300">
                           {summary}
                         </div>
                       </div>
