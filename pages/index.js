@@ -5,7 +5,6 @@ import Info from '@/components/Info'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-
 import NewsletterForm from '@/components/NewsletterForm'
 import OneRow from '@/components/OneRow'
 
@@ -24,10 +23,10 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text py-10 text-6xl font-extrabold text-transparent sm:text-6xl">
-            Front-End Developer.
+            Friendly Front-End Developer.
             <span className="italic sm:block "></span>
           </h1>
-          <div className="flex justify-end">
+          <div className="flex justify-center border border-green-500 shadow-lg">
             <Info />
           </div>
 
@@ -78,7 +77,7 @@ export default function Home({ posts }) {
                       <div className="text-base font-medium leading-6">
                         <Link
                           href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          className="text-green-700 hover:text-green-400 dark:hover:text-green-700"
                           aria-label={`Read "${title}"`}
                         >
                           Read more &rarr;
@@ -96,7 +95,7 @@ export default function Home({ posts }) {
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
             href="/blog"
-            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            className="text-green-700 hover:text-green-700 dark:hover:text-green-400"
             aria-label="all posts"
           >
             All Posts &rarr;
