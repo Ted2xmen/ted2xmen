@@ -39,13 +39,9 @@ function QuickLinks() {
             className="my-2 block h-full rounded-lg border border-gray-700 p-2 hover:border-green-600"
             rel="noreferrer"
           >
-            <h5 className="font-medium text-gray-700 dark:text-gray-400">
-              Analog and Digital Photos
-            </h5>
+            <h5 className="font-medium text-gray-700 dark:text-gray-400">Medium</h5>
 
-            <p className="mt-1 text-xs font-medium text-gray-700 dark:text-gray-400">
-              Three Rubyists
-            </p>
+            <p className="mt-1 text-xs font-medium text-gray-700 dark:text-gray-400">Blog posts</p>
           </a>
         </li>
       </ul>

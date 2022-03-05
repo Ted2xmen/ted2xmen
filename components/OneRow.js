@@ -36,9 +36,7 @@ function OneRow() {
               <div className=" pl-12">
                 <p className="text-sm text-gray-700 dark:text-gray-200">behance.com</p>
 
-                <h5 className="text-sm text-gray-700 dark:text-gray-400">
-                  Rurouni Kenshin Movie Card
-                </h5>
+                <h5 className="text-sm text-gray-700 dark:text-gray-400">Behance</h5>
 
                 <p className="mt-1 text-xs text-gray-700 dark:text-gray-400">
                   check out my behance account
