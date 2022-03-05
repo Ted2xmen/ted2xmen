@@ -5,7 +5,7 @@ import Info from '@/components/Info'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-import NewsletterForm from '@/components/NewsletterForm'
+// import NewsletterForm from '@/components/NewsletterForm'
 import OneRow from '@/components/OneRow'
 
 const MAX_DISPLAY = 3
@@ -22,11 +22,11 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text py-10 text-6xl font-extrabold text-transparent sm:text-6xl">
-            Friendly Front-End Developer.
-            <span className="italic sm:block "></span>
+          <h1 className="bg-gradient-to-r from-green-700 via-green-500 to-green-200 bg-clip-text py-10 text-6xl font-extrabold text-transparent sm:text-6xl">
+            Front-End Developer.
           </h1>
-          <div className="flex justify-center border border-green-500 shadow-lg">
+          <span className="text-lg italic ">Tugrul Erdem Dogru</span>
+          <div className="flex justify-center">
             <Info />
           </div>
 
@@ -102,11 +102,11 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
-      {siteMetadata.newsletter.provider !== '' && (
+      {/* {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
         </div>
-      )}
+      )} */}
     </>
   )
 }

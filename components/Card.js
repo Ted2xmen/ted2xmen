@@ -1,8 +1,8 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href, stack, repoLink }) => (
-  <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
+const Card = ({ title, description, imgSrc, href, stack, preview }) => (
+  <div className="md p-4 md:w-1/2" style={{ maxWidth: '644px' }}>
     <div
       className={`${
         imgSrc && 'h-full'
@@ -31,7 +31,7 @@ const Card = ({ title, description, imgSrc, href, stack, repoLink }) => (
       <div className="p-6">
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
           {href ? (
-            <Link href={href} aria-label={`Link to ${title}`}>
+            <Link href={null} aria-label={`Link to ${title}`}>
               {title}
             </Link>
           ) : (
@@ -42,7 +42,7 @@ const Card = ({ title, description, imgSrc, href, stack, repoLink }) => (
         {stack.map((s, i) => (
           <strong
             key={i}
-            className="mx-1 rounded border border-current px-3 py-1.5 text-[12px] font-medium text-blue-500"
+            className="mx-1 rounded border border-current px-3 py-1.5 text-[12px] font-medium text-green-800"
           >
             {' '}
             {s}{' '}
@@ -50,14 +50,22 @@ const Card = ({ title, description, imgSrc, href, stack, repoLink }) => (
         ))}
 
         <p className="prose mb-3 max-w-none py-4 text-gray-500 dark:text-gray-400">{description}</p>
-
         {href && (
           <Link
-            href={repoLink}
-            className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            aria-label={`Link to ${repoLink}`}
+            href={href}
+            className="text-base font-medium leading-6 text-green-800 hover:text-green-700 dark:hover:text-green-600"
+            aria-label={`Link to ${href}`}
           >
-            Learn more &rarr;
+            Repository
+          </Link>
+        )}
+        {preview && (
+          <Link
+            href={preview}
+            className="ml-4 text-base font-medium leading-6 text-green-800 hover:text-green-600 dark:hover:text-green-400"
+            aria-label={`Link to ${preview}`}
+          >
+            Preview
           </Link>
         )}
       </div>

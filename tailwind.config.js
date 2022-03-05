@@ -30,11 +30,11 @@ module.exports = {
           css: {
             color: theme('colors.gray.700'),
             a: {
-              color: theme('colors.primary.500'),
+              color: theme('colors.green.700'),
               '&:hover': {
-                color: `${theme('colors.primary.600')} !important`,
+                color: `${theme('colors.green.700')} !important`,
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme('colors.orange.400') },
             },
             h1: {
               fontWeight: '700',
@@ -98,11 +98,11 @@ module.exports = {
           css: {
             color: theme('colors.gray.300'),
             a: {
-              color: theme('colors.primary.500'),
+              color: theme('colors.green.700'),
               '&:hover': {
-                color: `${theme('colors.primary.400')} !important`,
+                color: `${theme('colors.green.700')} !important`,
               },
-              code: { color: theme('colors.primary.400') },
+              code: { color: theme('colors.orange.700') },
             },
             h1: {
               fontWeight: '700',
