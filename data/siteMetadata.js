@@ -1,8 +1,8 @@
 const siteMetadata = {
   title: 'Notes || Ted2xmen',
   author: 'Ted2xmen',
-  headerTitle: 'ted2xmen.dev',
-  description: '',
+  headerTitle: ' ',
+  description: 'Öğrenirken Aldığım Notlar, Kod Açıklamaları, Hafıza Defteri',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',

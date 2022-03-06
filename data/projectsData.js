@@ -1,42 +1,42 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
+    title: 'Lastfm Scrapper',
+    stack: ['JS', 'Node'],
+    description: `What if you could look up any information in the world? Webpages, images, videos
+    and more. Google has many features to help you find exactly what you're looking
+    for.`,
+    imgSrc: '',
+    href: 'https://github.com/Ted2xmen/lastfm-scraper', // repo
+    preview: 'https://github.com/Ted2xmen/lastfm-scraper',
+  },
+  {
+    title: 'Kronika',
     stack: ['Vue', 'Firebase', 'Bootstrap'],
     description: `What if you could look up any information in the world? Webpages, images, videos
     and more. Google has many features to help you find exactly what you're looking
     for.`,
     imgSrc: '',
-    href: 'https://www.google.com', // repo
+    href: 'https://github.com/Ted2xmen/kronika-firebase', // repo
     preview: 'https://www.yahoo.com',
   },
   {
-    title: 'A Search Engine',
-    stack: ['Vue', 'Firebase', 'Bootstrap'],
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '',
-    href: 'https://www.google.com', // repo
-    preview: 'https://www.yahoo.com',
-  },
-  {
-    title: 'The Time Machine',
-    stack: ['React', 'Firebase', 'MaterialUI'],
+    title: 'Kütüphaneden',
+    stack: ['JS', 'Bootstrap'],
     description: `Imagine being able to travel back in time or to the future. Simple turn the knob
     to the desired date and press "Go". No more worrying about lost keys or
     forgotten headphones with this simple yet affordable solution.`,
     imgSrc: '',
-    href: '/blog/the-time-machine',
+    href: 'https://github.com/Ted2xmen/kutuphaneden',
     preview: 'https://www.time-machine.com',
   },
   {
-    title: 'The Time Machine',
-    stack: ['React', 'Firebase', 'MaterialUI'],
+    title: 'This Blog',
+    stack: ['React', 'Next JS', 'Tailwind'],
     description: `Imagine being able to travel back in time or to the future. Simple turn the knob
     to the desired date and press "Go". No more worrying about lost keys or
     forgotten headphones with this simple yet affordable solution.`,
     imgSrc: '',
-    href: '/blog/the-time-machine',
+    href: '/',
     preview: 'https://www.time-machine.com',
   },
 ]
