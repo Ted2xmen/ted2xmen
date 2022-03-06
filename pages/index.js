@@ -25,13 +25,6 @@ export default function Home({ posts }) {
           <h1 className="bg-gradient-to-r from-green-700 via-green-500 to-green-200 bg-clip-text py-10 text-6xl font-extrabold text-transparent sm:text-6xl">
             Front-End Developer.
           </h1>
-          <span className="text-lg italic ">Tugrul Erdem Dogru</span>
-          <span className="text-md block italic">
-            React, Vue, Firebase, Eleventy, Next JS, Tailwind
-          </span>
-          <span className="text-md block italic">
-            Visual Studio Code, Github, Bear, Evernote, Microsoft ToDo
-          </span>
           <div className="flex">
             <Info />
           </div>
