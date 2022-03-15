@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Notes || Ted2xmen',
+  title: 'home -  Ted2xmen',
   author: 'Ted2xmen',
   headerTitle: ' ',
   description: 'Öğrenirken Aldığım Notlar, Kod Açıklamaları, Linkler vb',
