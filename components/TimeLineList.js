@@ -12,10 +12,7 @@ const Card = ({ title, description, href, stack }) => (
           >
             <h5 className="mb-2 font-medium text-gray-700 dark:text-white">{title}</h5>
             {stack.map((s, i) => (
-              <strong
-                key={i}
-                className="mx-1 rounded border border-current px-3 py-1.5 text-[12px] font-medium text-green-800"
-              >
+              <strong key={i} className="mx-1 px-3 py-1.5 text-[12px] font-medium text-green-800">
                 {s}
               </strong>
             ))}

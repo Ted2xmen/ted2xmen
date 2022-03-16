@@ -14,7 +14,7 @@ export default function Timeline() {
             Timeline
           </h1>
           <p className="mx-5 mb-5 text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Read, watch, listen, play..
+            bookmarks...
           </p>
         </div>
         <div className="container py-12">

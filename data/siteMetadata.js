@@ -15,6 +15,7 @@ const siteMetadata = {
   twitter: 'https://twitter.com/ted2xmen',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
+  lastfm: 'https://www.last.fm/user/ted2xmen',
   linkedin: 'https://www.linkedin.com/in/tugrulerdemdogru/',
   locale: 'en-US',
   deneme: ['/static/images/git.svg'],

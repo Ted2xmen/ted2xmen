@@ -6,22 +6,25 @@ draft: false
 summary: Bear sayfa düzeni açısından Evernote'a benzeyen bir not alma uygulaması. Sadece Mac ve ios işletim sistemlerinde çalışmakta.
 ---
 
-### özet
+      ![Bear](https://bear.app/static/images/header-mac-screenshot.png)
 
-- MacOs ve Ios için
-- Free ve Pro (yearly 44 tl)
-- Markdown, tertemiz arayüz.
-- çeşitli export seçenekleri
-- isteğe bağlı senkronizasyon,
-- `belki eksi `: klasör yapısı. etiketler ile not organizasyonu yapıyorsunuz.
+### Özet
+
+- https://bear.app/
+- Macos ve Ios için
+- Markdown,
+- çeşitli export seçenekleri,
+- isteğe bağlı senkronizasyon.
 
 ## Bear Nedir ?
 
-`Bear` sayfa düzeni açısından Evernote'a benzeyen bir not alma uygulaması. Sadece Mac ve ios işletim sistemlerinde çalışmakta.
+**Bear** sayfa düzeni açısından Evernote'a benzeyen bir not alma uygulaması. Sadece Mac ve ios işletim sistemlerinde çalışmakta.
+
+> Bear is a beautiful, flexible writing app for crafting notes and prose.
 
 ## Niçin Kullanıyorum
 
-Kod yazarken ve öğrenirken not almak için kullanıyorum. Bazı cli komutlarını ve import satırlarını bazen tailwind class'larını hatta doğrudan bir firebase signup taslağını kaydetmek için kullanıyorum. Kendi codewikim. Markdown formatında olması sebebiyle ayda birkere github'a yedekliyorum.
+Kod yazarken ve öğrenirken not almak için kullanıyorum. Bazı cli komutlarını ve import satırlarını bazen tailwind class'larını hatta doğrudan bir firebase signup taslağını kaydetmek için kullanıyorum. Kendi codewikim. Markdown formatında olması sayesinde ayda bir kere github'a yedekliyorum.
 
 Belki Offline olması belki macos'un verdiği stabilite sayesinde istediğim notlara çok hızlı ulaşabiliyorum.
 
@@ -29,12 +32,13 @@ Belki Offline olması belki macos'un verdiği stabilite sayesinde istediğim not
 
 En önemli farkı tamamen offline çalışabilmenize olanak sağlaması. Benim için en önemli özellik bu. Evernote birkaç sene öncesine kadar senkronizasyonu seçiminize bırakmaktaydı ama bir süredir tüm notlarınızı zorla buluta yüklüyor.
 
-Diğer fark ise Bear ile aldığınız notlarınızı istediğiniz formatta dışarı aktarabiliyor olmanız. (PDF, MD, HTML, JPG, DOCX, RTF) Örneğin Evernote .enex formatında saklıyor ve başka bir yere taşımak isterseniz pek kolay sayılmaz.
+Diğer fark ise Bear ile aldığınız notlarınızı istediğiniz formatta dışarı aktarabiliyor olmanız. (PDF, MD, HTML, JPG, DOCX, RTF) Örneğin Evernote .enex formatında saklıyor ve başka bir yere taşımak isterseniz uğraşmanız gerekiyor.
 
 ## Obsidian'den Farkı
 
-Obsidian, Bear'den önce kullandığım ve gayet sevdiğim bir markdown not alma uygulamasıydı. Hatta türkçe'ye çevrilmesinde ve geri bildirim verme konusunda oldukça aktiftim geçtiğimiz yıl. Obsidian biraz ileri seviye kullanıcılar için bence. Çünkü çok fazla özelleştirme seçeneğiniz var, çok fazla eklenti kurabiliyorsunuz çok fazla çok fazla şeyi var. Benim aradığım şey ise sadece dümdüz not alabilmekti.
+Obsidian, Bear'den önce kullandığım ve gayet sevdiğim bir markdown not alma uygulamasıydı. Hatta türkçe'ye çevrilmesine yardımcı oluyordum geçtiğimiz yıl. Obsidian biraz ileri seviye kullanıcılar için. Çünkü çok fazla özelleştirme imkanınız var, çok fazla eklenti kurabiliyorsunuz çok fazla ve çok fazla şeyi var. Benim aradığım şey ise sadece dümdüz not alabilmekti.
 
 ## Nasıl Kullanıyorum?
 
-![image](./data/images/left.png)
+...
+soon

@@ -12,6 +12,7 @@ export default function Footer() {
           <SocialIcon kind="github" href={siteMetadata.github} size={iconw} />
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={iconw} />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size={iconw} />
+          <SocialIcon kind="lastfm" href={siteMetadata.lastfm} size={iconw} />
         </div>
         <div className="my-3 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
           <div>{`© ${new Date().getFullYear()}`}</div>
