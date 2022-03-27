@@ -1,5 +1,13 @@
 const projectsData = [
   {
+    title: 'Eleventree',
+    stack: ['Tailwind', 'Eleventy'],
+    description: ``,
+    imgSrc: '',
+    href: 'https://eleventree.netlify.app', // repo
+    preview: 'https://github.com/Ted2xmen/eleventree',
+  },
+  {
     title: 'Lastfm Scrapper',
     stack: ['JS', 'Node'],
     description: `What if you could look up any information in the world? Webpages, images, videos
