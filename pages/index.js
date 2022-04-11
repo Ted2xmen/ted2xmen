@@ -28,7 +28,7 @@ export default function Home({ posts }) {
           <div className="flex">
             <Info />
           </div>
-          {/* <OneRow /> */}
+          <OneRow />
           <h1 className="text-1xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
             yazılar
           </h1>
@@ -96,11 +96,6 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
-      {/* {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )} */}
     </>
   )
 }

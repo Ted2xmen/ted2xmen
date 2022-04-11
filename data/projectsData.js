@@ -2,10 +2,10 @@ const projectsData = [
   {
     title: 'Eleventree',
     stack: ['Tailwind', 'Eleventy'],
-    description: ``,
-    imgSrc: '',
-    href: 'https://eleventree.netlify.app', // repo
-    preview: 'https://github.com/Ted2xmen/eleventree',
+    description: `Your Bookmark List`,
+    imgSrc: '/static/eleventree.png',
+    href: 'https://github.com/Ted2xmen/eleventree', // repo
+    preview: 'https://eleventree.netlify.app',
   },
   {
     title: 'Lastfm Scrapper',
@@ -20,29 +20,23 @@ const projectsData = [
   {
     title: 'Kronika',
     stack: ['Vue', 'Firebase', 'Bootstrap'],
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '',
+    description: ``,
+    imgSrc: '/static/kronika.png',
     href: 'https://github.com/Ted2xmen/kronika-firebase', // repo
-    preview: 'https://www.yahoo.com',
+    preview: 'https://kronika-vue2.vercel.app/#/',
   },
   {
     title: 'Kütüphaneden',
     stack: ['JS', 'Bootstrap'],
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '',
+    description: ``,
+    imgSrc: '/static/kutuphaneden.png',
     href: 'https://github.com/Ted2xmen/kutuphaneden',
-    preview: 'https://www.time-machine.com',
+    preview: 'https://kutuphaneden.vercel.app/',
   },
   {
     title: 'This Blog',
     stack: ['React', 'Next JS', 'Tailwind'],
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    description: ``,
     imgSrc: '',
     href: '/',
     preview: 'https://www.time-machine.com',

@@ -14,8 +14,8 @@ const Card = ({ title, description, imgSrc, href, stack, preview }) => (
             <Image
               alt={title}
               src={imgSrc}
-              className="object-cover object-center md:h-36 lg:h-48"
-              width={544}
+              className="object-contain object-top md:h-32 lg:h-44"
+              width={580}
               height={306}
             />
           </Link>
@@ -23,12 +23,12 @@ const Card = ({ title, description, imgSrc, href, stack, preview }) => (
           <Image
             alt={title}
             src={imgSrc}
-            className="object-cover object-center md:h-36 lg:h-48"
-            width={544}
+            className="object-contain object-top md:h-36 lg:h-48"
+            width={580}
             height={306}
           />
         ))}
-      <div className="p-6">
+      <div className="p-2">
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
           {href ? (
             <Link href={null} aria-label={`Link to ${title}`}>
