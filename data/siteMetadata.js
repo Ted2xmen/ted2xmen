@@ -1,11 +1,11 @@
 const siteMetadata = {
-  title: 'home -  Ted2xmen',
+  title: 'Home -  Ted2xmen',
   author: 'Ted2xmen',
-  headerTitle: ' ',
+  headerTitle: '',
   description: 'Öğrenirken Aldığım Notlar, Kod Açıklamaları, Linkler vb',
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://www.ted2xmen.dev/',
+  siteUrl: 'https://www.ted2xmen.dev',
   siteRepo: 'https://github.com/ted2xmen',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
@@ -16,7 +16,7 @@ const siteMetadata = {
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   lastfm: 'https://www.last.fm/user/ted2xmen',
-  linkedin: 'https://www.linkedin.com/in/tugrulerdemdogru/',
+  linkedin: 'https://www.linkedin.com/in/tugrulerdemdogru',
   locale: 'en-US',
   analytics: {
     googleAnalyticsId: 'G-KEKR2Z8PLL',

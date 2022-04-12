@@ -1,11 +1,11 @@
 ---
 name: Tugrul Erdem
 avatar: /static/images/avatar.png
-occupation: phd student / frontend dev
+occupation: Frontend developer
 company: Freelance
 email: ted2xmen@gmail.com
 twitter: https://twitter.com/Ted2xmen
-linkedin: https://www.linkedin.com/in/tugrulerdemdogru/
+linkedin: https://www.linkedin.com/in/tugrulerdemdogru
 github: https://github.com/Ted2xmen
 ---
 
