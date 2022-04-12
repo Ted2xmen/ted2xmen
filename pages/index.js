@@ -21,19 +21,20 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="bg-gradient-to-r from-green-700 via-green-500 to-green-200 bg-clip-text py-10 text-6xl font-extrabold text-transparent sm:text-6xl">
-            Front-End Developer.
-          </h1>
+        <div className="space-y-2 pt-16 pb-8 md:space-y-5">
           <div className="flex">
             <Info />
           </div>
-          <OneRow />
-          <h1 className="text-1xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+          {/* <h1 className="bg-gradient-to-r  from-green-700 via-green-500 to-green-200 bg-clip-text py-2 text-4xl font-extrabold text-transparent sm:text-5xl">
+            Front-End Developer.
+          </h1> */}
+
+          {/* <OneRow /> */}
+          {/* <h1 className="text-1xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
             yazılar
-          </h1>
+          </h1> */}
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+        {/* <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
@@ -83,9 +84,9 @@ export default function Home({ posts }) {
               </li>
             )
           })}
-        </ul>
+        </ul> */}
       </div>
-      {posts.length > MAX_DISPLAY && (
+      {/* {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
             href="/blog"
@@ -95,7 +96,7 @@ export default function Home({ posts }) {
             All Posts &rarr;
           </Link>
         </div>
-      )}
+      )} */}
     </>
   )
 }
