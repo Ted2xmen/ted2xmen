@@ -26,6 +26,12 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               <Link href="/tags" className="mx-3 text-xl  text-green-600">
                 <span className="mx-1">🏷️</span> Tags
               </Link>
+              <Link
+                href="https://ted2xmen.medium.com/"
+                className="mx-3 text-xl  text-slate-900 dark:text-slate-100"
+              >
+                <span className="m-2 p-1 ">ᴹ</span> Medium
+              </Link>
             </span>
           </h1>
           <div className="relative max-w-lg">

@@ -15,6 +15,8 @@ const siteMetadata = {
   twitter: 'https://twitter.com/ted2xmen',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
+  medium: 'https://ted2xmen.medium.com/',
+  behance: 'https://www.behance.net/Ted2xmen',
   lastfm: 'https://www.last.fm/user/ted2xmen',
   linkedin: 'https://www.linkedin.com/in/tugrulerdemdogru',
   locale: 'en-US',
