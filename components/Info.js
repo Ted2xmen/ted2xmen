@@ -19,7 +19,7 @@ function Info() {
         <span className="font-bold italic text-green-500">Vue</span> and{' '}
         <span className="font-bold italic text-purple-500">TailwindCSS.</span> Voluptatibus saepe
         accusamus architecto, tempora sapiente doloremque aliquam adipisci dolor pariatur quod nihil
-        magni, facilis porro placeat molestias cupiditate ad, eos ducimus.
+        magni, eos ducimus.
       </p>
       <div className="my-6 flex gap-3 space-x-2">
         <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={iconw} />
