@@ -6,32 +6,28 @@ function Info() {
   const iconw = 8
 
   return (
-    <div className="py-6">
-      <h2 className="flex items-center gap-4 bg-gradient-to-l from-green-300 to-green-800 bg-clip-text py-6 text-6xl font-extrabold text-transparent sm:text-5xl">
+    <div className="py-4">
+      <h2 className="flex items-center bg-gradient-to-l from-green-500 to-green-700 bg-clip-text pb-4 text-center text-6xl font-extrabold text-transparent sm:text-5xl">
         Tuğrul Erdem Dogru
       </h2>
-      <p className="block text-gray-800 dark:text-gray-400">
+      <p className="block py-2 text-gray-800 dark:text-gray-400">
         <span className="text-xl font-bold dark:text-zinc-400">Frontend Developer.</span> Mostly{' '}
-        <span className="text-lg italic text-sky-600"> React, </span>
-        <span className="text-lg italic text-primary-600"> Vue, </span>
-        <span className="text-lg italic text-purple-600"> Tailwind </span> Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit. Lorem, ipsum dolor. Lorem, ipsum dolor sit amet consectetur
-        adipisicing. Familiar with{' '}
-        <span className="text-lg italic text-yellow-600"> Firebase, </span>
-        <span className="text-lg italic text-pink-600"> Node/Express, </span>
-        <span className="text-lg italic text-indigo-600"> Jamstack, </span>
-        <span className="text-lg italic text-orange-600"> Strapi </span>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vero. Also loving{' '}
-        <span className="text-lg italic text-lime-600"> Next JS </span> Lorem, ipsum dolor. Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Inventore!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minus quae cum placeat eum
+        et amet sunt quidem aliquid voluptate.{' '}
+        <span className="text-lg font-bold dark:text-zinc-400">Mostly</span>{' '}
+        <span className="font-bold italic text-orange-500">React, </span>
+        <span className="font-bold italic text-green-500">Vue</span> and{' '}
+        <span className="font-bold italic text-purple-500">TailwindCSS.</span> Voluptatibus saepe
+        accusamus architecto, tempora sapiente doloremque aliquam adipisci dolor pariatur quod nihil
+        magni, facilis porro placeat molestias cupiditate ad, eos ducimus.
       </p>
-      <div className="my-6 flex gap-3 space-x-4">
+      <div className="my-6 flex gap-3 space-x-2">
         <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={iconw} />
         <SocialIcon kind="github" href={siteMetadata.github} size={iconw} />
         <SocialIcon kind="medium" href={siteMetadata.medium} size={iconw} />
         <SocialIcon kind="behance" href={siteMetadata.behance} size={iconw} />
         <SocialIcon kind="twitter" href={siteMetadata.twitter} size={iconw} />
-        <SocialIcon kind="lastfm" href={siteMetadata.lastfm} size={iconw} />
+        {/* <SocialIcon kind="lastfm" href={siteMetadata.lastfm} size={iconw} /> */}
         <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={iconw} />
       </div>
       <Link
