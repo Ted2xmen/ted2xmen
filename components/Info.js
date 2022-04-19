@@ -30,13 +30,22 @@ function Info() {
         {/* <SocialIcon kind="lastfm" href={siteMetadata.lastfm} size={iconw} /> */}
         <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={iconw} />
       </div>
-      <Link
-        href="https://eleventree.netlify.app/"
-        className="py-2 text-lg text-gray-600 dark:text-gray-300"
-      >
-        Check out my last project{' '}
-        <span className="italic text-green-500 hover:underline">eleventree</span>
-      </Link>
+      <div className="">
+        Check out my last projects
+        <Link
+          href="https://eleventree.netlify.app/"
+          className="py-2 text-lg text-gray-600 dark:text-gray-300"
+        >
+          <span className="italic text-green-500 hover:underline"> eleventree</span>
+        </Link>{' '}
+        and{' '}
+        <Link
+          href="https://gomarx.netlify.app/"
+          className="py-2 text-lg text-gray-600 dark:text-gray-300"
+        >
+          <span className="italic text-indigo-500 hover:underline"> gomarx</span>
+        </Link>
+      </div>
     </div>
   )
 }

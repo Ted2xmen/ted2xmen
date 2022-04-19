@@ -1,6 +1,6 @@
 <h3 align="center">A passionate frontend developer</h3>
 
-- 🌱 I’m currently learning **NextJS**
+- 🌱 I’m currently learning **NextJS** and **Golang**
 
 - 📫 How to reach me **ted2xmen@gmail.com**
 

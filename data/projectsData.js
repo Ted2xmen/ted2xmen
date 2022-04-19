@@ -48,6 +48,14 @@ const projectsData = [
     preview: 'https://www.ted2xmen.dev/',
   },
   {
+    title: 'gomarx',
+    stack: ['Go', 'Hugo', 'Bootstrap'],
+    description: `Some of the Best Resources for Learning Golang `,
+    imgSrc: '/static/gomarx.png',
+    href: 'https://github.com/Ted2xmen/gomarx',
+    preview: 'https://gomarx.netlify.app/',
+  },
+  {
     title: 'Covid Tracker',
     stack: ['Vue', 'Bootstrap'],
     description: `Covid 19 Tracker`,
