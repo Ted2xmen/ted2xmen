@@ -64,6 +64,14 @@ const projectsData = [
     preview: 'https://track19.vercel.app/',
   },
   {
+    title: 'findmentor.clone ',
+    stack: ['Vue', 'Bootstrap'],
+    description: `findmentor`,
+    imgSrc: '/static/findmentor.png',
+    href: 'https://github.com/Ted2xmen/findmentor.clone',
+    preview: 'https://findmentor-clone.netlify.app/',
+  },
+  {
     title: 'VueAdvice ',
     stack: ['Vue', 'Tailwind'],
     description: `Daily Advice`,

@@ -7,9 +7,6 @@ function Info() {
 
   return (
     <div className="py-4">
-      <h2 className="flex items-center bg-gradient-to-l from-green-500 to-green-700 bg-clip-text pb-4 text-center text-6xl font-extrabold text-transparent sm:text-5xl">
-        Tuğrul Erdem Dogru
-      </h2>
       <p className="block py-2 text-gray-800 dark:text-gray-400">
         <span className="text-xl font-bold dark:text-zinc-400">Frontend Developer.</span> Mostly{' '}
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minus quae cum placeat eum

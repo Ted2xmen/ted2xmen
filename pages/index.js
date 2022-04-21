@@ -17,7 +17,10 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-16 pb-8 md:space-y-5">
-          <div className="flex">
+          <div className="">
+            <h2 className="flex items-center bg-gradient-to-l from-green-500 to-green-700 bg-clip-text pb-4 text-center text-6xl font-extrabold text-transparent sm:text-5xl">
+              Tuğrul Erdem Dogru
+            </h2>
             <Info />
           </div>
           {/* <h1 className="bg-gradient-to-r  from-green-700 via-green-500 to-green-200 bg-clip-text py-2 text-4xl font-extrabold text-transparent sm:text-5xl">
