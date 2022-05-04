@@ -24,6 +24,14 @@ const projectsData = [
     preview: 'https://kronika-vue2.vercel.app/#/',
   },
   {
+    title: 'Online Haçlı Kaynakları Projesi',
+    stack: ['React', 'Tailwind'],
+    description: ``,
+    imgSrc: '/static/online-hacli.png',
+    href: 'https://github.com/Ted2xmen/online-hacli-kaynaklari', // repo
+    preview: 'https://online-hacli-kaynaklari.netlify.app',
+  },
+  {
     title: 'Kütüphaneden',
     stack: ['JS', 'Bootstrap'],
     description: ``,
@@ -54,6 +62,14 @@ const projectsData = [
     imgSrc: '/static/gomarx.png',
     href: 'https://github.com/Ted2xmen/gomarx',
     preview: 'https://gomarx.netlify.app/',
+  },
+  {
+    title: 'ConectoHub Test',
+    stack: ['Vue', 'Tailwind'],
+    description: ``,
+    imgSrc: '/static/conectohub.png',
+    href: 'https://github.com/Ted2xmen/conectohub',
+    preview: 'https://scintillating-faloodeh-b86c24.netlify.app/',
   },
   {
     title: 'Covid Tracker',
