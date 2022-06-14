@@ -7,14 +7,6 @@ const projectsData = [
     href: 'https://github.com/Ted2xmen/eleventree', // repo
     preview: 'https://eleventree.netlify.app',
   },
-  // {
-  //   title: 'Lastfm Scrapper',
-  //   stack: ['JS', 'Node'],
-  //   description: `What if you could look up any information in the world? Webpages, images, `,
-  //   imgSrc: '',
-  //   href: 'https://github.com/Ted2xmen/lastfm-scraper', // repo
-  //   preview: 'https://github.com/Ted2xmen/lastfm-scraper',
-  // },
   {
     title: 'Kronika',
     stack: ['Vue', 'Firebase', 'Bootstrap'],
@@ -40,12 +32,20 @@ const projectsData = [
     preview: 'https://kutuphaneden.vercel.app/',
   },
   {
+    title: 'GYM RAT',
+    stack: ['React', 'Tailwind'],
+    description: `Exercises DB`,
+    imgSrc: '/static/gym-rat.png',
+    href: 'https://github.com/Ted2xmen/gym-rat',
+    preview: 'https://gym-rat.vercel.app/',
+  },
+  {
     title: 'Budget Planner',
     stack: ['React', 'Bootstrap'],
     description: `Budget Planner`,
     imgSrc: '/static/budget.png',
     href: 'https://github.com/Ted2xmen/react-budget-planner',
-    preview: 'hhttps://ted-budget-app.netlify.app/',
+    preview: 'https://ted-budget-app.netlify.app/',
   },
   {
     title: 'This Blog',
@@ -102,6 +102,14 @@ const projectsData = [
     imgSrc: '/static/dergibul.png',
     href: 'https://github.com/Ted2xmen/dergibul',
     preview: 'https://dergibul.vercel.app/',
+  },
+  {
+    title: 'Pure Notes',
+    stack: ['HTML', 'JS', 'TailwindCSS'],
+    description: `Evernotelike Note Taking`,
+    imgSrc: '/static/pure-notes.jpg',
+    href: 'https://github.com/Ted2xmen/pure-notes',
+    preview: 'https://ted2xmen.github.io/pure-notes/',
   },
   {
     title: 'Random Şiirler',
