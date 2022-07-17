@@ -9,11 +9,11 @@ const LastFM = () => {
   const api_key = process.env.NEXT_PUBLIC_LASTFM_API
   useEffect(() => {
     fetch(
-      `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=ted2xmen&api_key=${api_key}&format=json`
+      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=ted2xmen&api_key=${api_key}&format=json`
     )
       .then((response) => response.json())
       .then((data) => setItem(data))
-  }, [])
+  }, [api_key])
 
   return (
     <div>
