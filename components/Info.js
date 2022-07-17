@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
+import LastFM from '@/components/LastFM'
+
 function Info() {
   const iconw = 8
 
@@ -18,14 +20,14 @@ function Info() {
         accusamus architecto, tempora sapiente doloremque aliquam adipisci dolor pariatur quod nihil
         magni, eos ducimus.
       </p>
-      <div className="my-6 flex gap-3 space-x-2">
+      <div className="my-6 flex flex-wrap items-center justify-center gap-3 space-x-2 md:justify-start  2xl:justify-start">
         <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={iconw} />
         <SocialIcon kind="github" href={siteMetadata.github} size={iconw} />
         <SocialIcon kind="medium" href={siteMetadata.medium} size={iconw} />
         <SocialIcon kind="behance" href={siteMetadata.behance} size={iconw} />
         <SocialIcon kind="twitter" href={siteMetadata.twitter} size={iconw} />
-        {/* <SocialIcon kind="lastfm" href={siteMetadata.lastfm} size={iconw} /> */}
         <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={iconw} />
+        <LastFM />
       </div>
       <div className="">
         Check out my last projects
