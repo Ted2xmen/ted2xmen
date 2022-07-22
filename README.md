@@ -1,6 +1,6 @@
 <h3 align="center">A passionate frontend developer</h3>
 
-- 🌱 I’m currently learning **React** and **Node JS**
+- I’m currently learning **TypeScript** and **Node JS**
 
 - 📫 How to reach me **ted2xmen@gmail.com**
 
