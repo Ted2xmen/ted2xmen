@@ -1,7 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import bookmarks from '@/data/bookmarks'
-import TimeLineList from '@/components/TimeLineList'
-// import Stack from '@/components/Stack'
+import BookmarkCard from '@/components/BookmarkCard'
 import { PageSEO } from '@/components/SEO'
 
 export default function Timeline() {
@@ -14,11 +12,9 @@ export default function Timeline() {
             Bookmarks
           </h1>
         </div>
-        <div className="container py-12">
-          <div className="-m-4 flex flex-wrap">
-            {bookmarks.map((d, i) => (
-              <TimeLineList key={i} title={d.title} href={d.href} stack={d.stack} />
-            ))}
+        <div className="container-xl py-12">
+          <div className=" flex justify-center">
+            <BookmarkCard />
           </div>
         </div>
       </div>
