@@ -7,6 +7,43 @@ const projectsData = [
     href: 'https://github.com/Ted2xmen/eleventree', // repo
     preview: 'https://eleventree.netlify.app',
   },
+
+  {
+    title: 'Fixboard',
+    stack: ['Tailwind', 'React', 'Firebase'],
+    description: `coming soon`,
+    imgSrc: '/static/fixboard.png',
+    href: '', // repo
+    preview: '',
+  },
+
+  {
+    title: 'ShowRes',
+    stack: ['Tailwind', 'React', 'Github API'],
+    description: `Project to show your Github repositories`,
+    imgSrc: '/static/showcase.png',
+    href: 'https://github.com/Ted2xmen/showcase', // repo
+    preview: 'https://showres.vercel.app/',
+  },
+
+  {
+    title: 'Digital Garden',
+    stack: ['Nextjs', 'StyledComponents', 'Raindrop API'],
+    description: `Reading List`,
+    imgSrc: '/static/digitalgarden.png',
+    href: 'https://github.com/Ted2xmen/next-typescript-storybook', // repo
+    preview: 'https://read101.netlify.app/',
+  },
+
+  {
+    title: 'Araştırman v9',
+    stack: ['Vue', 'Pinia', 'Tailwind'],
+    description: `Araştırmacılar için Kaynaklar`,
+    imgSrc: '/static/arastirman.png',
+    href: 'https://github.com/Ted2xmen/Arastirmanv9', // repo
+    preview: 'https://arastirman.netlify.app/#/',
+  },
+
   {
     title: 'Kronika',
     stack: ['Vue', 'Firebase', 'Bootstrap'],
@@ -14,6 +51,15 @@ const projectsData = [
     imgSrc: '/static/kronika.png',
     href: 'https://github.com/Ted2xmen/kronika-firebase', // repo
     preview: 'https://kronika-vue2.vercel.app/#/',
+  },
+
+  {
+    title: 'Ghibli Catalog',
+    stack: ['React', 'MaterialUI', 'Ghibli API', 'zustand'],
+    description: `Ghibli Movie Catalog`,
+    imgSrc: '/static/ghibli.png',
+    href: 'https://github.com/Ted2xmen/react-zustand-materialui', // repo
+    preview: 'https://quiet-sable-ff6a21.netlify.app/',
   },
   {
     title: 'Online Haçlı Kaynakları Projesi',

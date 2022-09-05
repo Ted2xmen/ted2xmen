@@ -31,18 +31,21 @@ function Info() {
       </div>
       <div className="">
         Check out my last projects
+        <Link href="/projects" className="py-2 text-lg text-gray-600 dark:text-gray-300">
+          <span className=" text-orange-500 hover:underline"> fixboard, </span>
+        </Link>{' '}
         <Link
-          href="https://eleventree.netlify.app/"
+          href="https://showres.vercel.app/"
           className="py-2 text-lg text-gray-600 dark:text-gray-300"
         >
-          <span className="italic text-green-500 hover:underline"> eleventree</span>
+          <span className=" text-green-500 hover:underline"> showRes</span>
         </Link>{' '}
         and{' '}
         <Link
-          href="https://gomarx.netlify.app/"
+          href="https://read101.netlify.app/"
           className="py-2 text-lg text-gray-600 dark:text-gray-300"
         >
-          <span className="italic text-indigo-500 hover:underline"> gomarx</span>
+          <span className=" text-indigo-500 hover:underline"> read 101</span>
         </Link>
       </div>
     </div>
