@@ -40,12 +40,8 @@ const Card = ({ title, description, imgSrc, href, stack, preview }) => (
         </h2>
 
         {stack.map((s, i) => (
-          <strong
-            key={i}
-            className="mx-1 rounded border border-current px-3 py-1.5 text-[12px] font-medium text-green-800"
-          >
-            {' '}
-            {s}{' '}
+          <strong key={i} className="badge">
+            {s}
           </strong>
         ))}
 
