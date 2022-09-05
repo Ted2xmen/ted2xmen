@@ -19,10 +19,6 @@ const SoftSkills = () => {
           )
         })}
       </div>
-      {/* SOFT SKILLS Analytical Thinking | Problem-Solving Abilities | Self-Motivated | Strong
-      Communication | Project Management | Planning | Time Management | Adaptability | Continuous
-      Learning | Collaboration & Teamwork | Coaching Mindset | Resilience | Curiosity | Emotional
-      Intelligence | Creativity. */}
     </div>
   )
 }

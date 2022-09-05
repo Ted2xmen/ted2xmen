@@ -17,7 +17,7 @@ const LastFM = () => {
 
   return (
     <div>
-      <div className="inline-flex items-center space-x-3 rounded-lg bg-green-700 p-1 px-2 text-gray-100 shadow-md dark:bg-green-900 dark:text-gray-300">
+      <div className="lastfm-box">
         <SocialIcon kind="lastfm" href={siteMetadata.lastfm} size={iconw} />
         <img
           className="rounded-lg p-1"

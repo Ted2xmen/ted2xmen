@@ -2,18 +2,16 @@ import React from 'react'
 
 const AboutText = () => {
   return (
-    <div>
-      <p className="block py-2 text-gray-800 dark:text-gray-400">
-        <span className="text-xl font-bold dark:text-zinc-400">Frontend Developer.</span> Mostly{' '}
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minus quae cum placeat eum
-        et amet sunt quidem aliquid voluptate.{' '}
-        <span className="text-lg font-bold dark:text-zinc-400">Mostly</span>{' '}
-        <span className="font-bold italic text-orange-500">React, </span>
-        <span className="font-bold italic text-green-500">Vue</span> and{' '}
-        <span className="font-bold italic text-purple-500">TailwindCSS.</span> Voluptatibus saepe
-        accusamus architecto, tempora sapiente doloremque aliquam adipisci dolor pariatur quod nihil
-        magni, eos ducimus.
-      </p>
+    <div className="block p-4 py-12 text-center  text-lg leading-8 text-gray-800 dark:text-gray-400">
+      A passionate developer who knows how to learn and how to communicate. Mostly use{' '}
+      <span className="underline-green">React</span> and{' '}
+      <span className="underline-teal">Tailwind</span>. I like to learn new technologies. I am
+      familiar with; <span className="underline-green">Vue</span> and{' '}
+      <span className="underline-teal">Vuex</span>, Node JS, Styled Components, Strapi, 11ty,{' '}
+      <span className="underline-yellow">Next JS</span>, MongoDB,{' '}
+      <span className="underline-yellow">Firebase</span>, Supabase, Bootstrap, MaterialUI and
+      Wordpress. Technologies I want to learn; TypeScript, Jest, Svelte, Graphql, AWS. Things I am
+      willing to learn; Go or Python/Django maybe .NET
     </div>
   )
 }
