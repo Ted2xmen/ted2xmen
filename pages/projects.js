@@ -1,5 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import Card from '@/components/projects/Card'
+import Card from '@/components/Projects/Card'
 import { PageSEO } from '@/components/SEO'
 import TechList from '@/components/Landing/TechList'
 
