@@ -1,17 +1,15 @@
 import siteMetadata from '@/data/siteMetadata'
-import projectsData from '@/data/projectsData'
 import Card from '@/components/projects/Card'
-// import Stack from '@/components/Stack'
 import { PageSEO } from '@/components/SEO'
 import TechList from '@/components/Landing/TechList'
 
-export default function newproject({ projects }) {
+export default function projects({ projects }) {
   return (
     <>
       <PageSEO title={`Projects - ${siteMetadata.author}`} description={siteMetadata.description} />
       <div>
         <div className="flex space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="page-title">New Projects</h1>
+          <h1 className="page-title">Projects</h1>
         </div>
         <TechList />
 
@@ -22,13 +20,13 @@ export default function newproject({ projects }) {
               .map((d) => (
                 <Card
                   id={d.id}
-                  key={d.title}
-                  title={d.title}
+                  key={d.id}
+                  title={d.name}
                   description={d.description}
                   imgSrc={d.imgSrc}
-                  href={d.href}
+                  href={d.html_url}
                   stack={d.topics}
-                  preview={d.preview}
+                  preview={d.homepage}
                 />
               ))}
           </div>

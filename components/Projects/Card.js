@@ -8,7 +8,7 @@ const Card = ({ title, description, imgSrc, href, stack, preview, id }) => (
         <Image
           alt={title}
           src={`/githubimages/${id}.png`}
-          className="object-contain object-top md:h-32 lg:h-44"
+          className="object-cover object-top md:h-32 lg:h-44"
           width={580}
           height={306}
         />
