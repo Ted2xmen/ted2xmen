@@ -31,7 +31,7 @@
 }
 
 .badge-2 {
-  @apply mx-2 rounded-lg bg-green-700 p-1   text-sm font-medium text-gray-200 opacity-70 transition-all dark:bg-green-900  dark:text-gray-200;
+  @apply mx-2 rounded-lg bg-green-800 p-1   text-sm font-medium text-gray-200 opacity-80 transition-all dark:bg-green-900  dark:text-gray-100;
 }
 
 .page-title {
@@ -52,6 +52,24 @@
 
 .lastfm-box {
   @apply m-2 inline-flex items-center space-x-3 rounded-lg border-2 border-green-700 p-2 px-2 text-gray-800 shadow-md backdrop-blur-lg dark:text-gray-300;
+}
+
+/* project section */
+
+.project-title {
+  @apply mb-3 text-2xl  font-bold leading-8 tracking-tight;
+}
+
+.project-link {
+  @apply text-base font-medium leading-6  text-green-600 dark:hover:text-green-400;
+}
+
+.project-desc {
+  @apply prose mb-3 max-w-none py-4 text-gray-500 dark:text-gray-400;
+}
+
+.project-card-body {
+  @apply overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 shadow-xl dark:border-gray-700;
 }
 
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
