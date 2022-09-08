@@ -1,5 +1,5 @@
 import { PageSEO } from '@/components/SEO'
-import Info from '@/components/Info'
+// import Info from '@/components/Info'
 import LastFM from '@/components/LastFM'
 
 import siteMetadata from '@/data/siteMetadata'
@@ -28,7 +28,7 @@ export default function Home({ posts }) {
                 Tuğrul Erdem Dogru
               </h1>
             </div>
-            <Info />
+            {/* <Info /> */}
           </div>
         </div>
       </div>
