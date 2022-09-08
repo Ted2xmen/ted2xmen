@@ -2,8 +2,8 @@ import Image from '../Image'
 import Link from '../Link'
 
 const Card = ({ title, description, imgSrc, href, stack, preview, id }) => (
-  <div className="md p-4 md:w-1/2" style={{ maxWidth: '644px' }}>
-    <div className={`${imgSrc && 'h-full'}  project-card-body`}>
+  <div className=" p-4 md:w-1/2" style={{ maxWidth: '644px' }}>
+    <div className={`${id && 'h-full'}  project-card-body`}>
       <Link href={href} aria-label={`Link to ${title}`}>
         <Image
           alt={title}
@@ -17,7 +17,7 @@ const Card = ({ title, description, imgSrc, href, stack, preview, id }) => (
       <div className="p-2">
         <h2 className="project-title">
           {href ? (
-            <Link href={null} aria-label={`Link to ${title}`}>
+            <Link href={href} aria-label={`Link to ${title}`}>
               {title}
             </Link>
           ) : (
@@ -27,13 +27,12 @@ const Card = ({ title, description, imgSrc, href, stack, preview, id }) => (
 
         {stack.map((st, i) => {
           return (
-            <span className="badge" key={i}>
-              {st}
-            </span>
+            <span key={i}>{st === 'portfolio' ? null : <span className="badge"> {st} </span>}</span>
           )
         })}
 
         <p className="project-desc">{description}</p>
+
         {href && (
           <Link href={href} className="project-link " aria-label={`Link to ${href}`}>
             Repository

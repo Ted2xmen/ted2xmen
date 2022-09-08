@@ -2,6 +2,8 @@ import siteMetadata from '@/data/siteMetadata'
 import Card from '@/components/Projects/Card'
 import { PageSEO } from '@/components/SEO'
 import TechList from '@/components/Landing/TechList'
+import React from 'react'
+import { JavaScriptIcon, TypeScriptIcon } from '@/components/Projects/Icons'
 
 export default function projects({ projects }) {
   return (
@@ -10,6 +12,10 @@ export default function projects({ projects }) {
       <div>
         <div className="flex space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="page-title">Projects</h1>
+          <div className="ml-6 flex items-center justify-end space-x-4">
+            <JavaScriptIcon />
+            <TypeScriptIcon />
+          </div>
         </div>
         <TechList />
 
@@ -18,7 +24,7 @@ export default function projects({ projects }) {
             {projects
               ?.filter((f) => f.topics.includes('portfolio'))
               .map((d) => (
-                <Card
+                <Card // edit later
                   id={d.id}
                   key={d.id}
                   title={d.name}

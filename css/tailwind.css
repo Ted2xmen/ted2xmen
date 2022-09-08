@@ -25,9 +25,19 @@
 
  */
 
+/* reusable */
+
+.color-dl {
+  @apply font-medium text-gray-800 dark:text-gray-300;
+}
+
+.border-dl {
+  @apply border border-green-400 dark:border-green-600;
+}
+
 /* ted2xmen */
 .badge {
-  @apply mx-1 mt-3 inline-flex rounded-lg border-2 border-green-800 p-1  text-sm text-gray-600;
+  @apply border-dl color-dl mx-1 mt-3 inline-flex rounded-lg  p-1 text-sm;
 }
 
 .badge-2 {
@@ -65,11 +75,11 @@
 }
 
 .project-desc {
-  @apply prose mb-3 max-w-none py-4 text-gray-500 dark:text-gray-400;
+  @apply prose mb-3 flex h-40 max-w-none overflow-y-auto py-4 text-gray-500 dark:text-gray-500 hover:dark:text-gray-400;
 }
 
 .project-card-body {
-  @apply overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 shadow-xl dark:border-gray-700;
+  @apply overflow-hidden rounded-md border border-gray-200 border-opacity-60 shadow-xl dark:border-gray-700;
 }
 
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
