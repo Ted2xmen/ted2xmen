@@ -1,8 +1,7 @@
 <h1 align="left">Frontend Developer</h1>
 
-
 Tuğrul Erdem Dogru <br>
- <br>
+<br>
 [Portfolio](https://www.ted2xmen.dev/)
 <br>
 
@@ -18,8 +17,6 @@ ted2xmen@gmail.com
 <a href="https://www.linkedin.com/in/tugrulerdemdogru/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/tugrulerdemdogru/" height="30" width="40" /></a>
 </p>
 
-
-
 <h3 align="left">Techs</h3>
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E&style=flat)
@@ -27,19 +24,7 @@ ted2xmen@gmail.com
 ![React](https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB&style=flat)
 ![Next JS ](https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white&style=flat)
 
-
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?logo=bootstrap&logoColor=white&style=flat)
 ![MUI ](https://img.shields.io/badge/MUI-%230081CB.svg?logo=material-ui&logoColor=white&style=flat)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?logo=styled-components&logoColor=white&style=flat)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white&style=flat)
-
-
-
-
-
-
-
-
-
-
-

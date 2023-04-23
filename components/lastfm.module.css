@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid rgb(18, 94, 18);
+    padding: 12px 14px;
+    border-radius: 8px;
+    white-space: nowrap;
+    margin-top: 42px;
+}

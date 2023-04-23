@@ -1,0 +1,42 @@
+import { useSSG } from 'nextra/ssg'
+import React from 'react'
+import BookmarkCard from '../../components/bookmarkCard'
+ 
+
+export const getStaticProps = async({ params }) => {
+const dataUrl = "https://api.raindrop.io/rest/v1/raindrops/26099349"
+   const options = {
+      headers: {
+        Authorization: `Bearer ${process.env.RAINDROP_API}`,
+      },
+    }
+
+return await fetch(dataUrl, options)
+.then(res => res.json())
+.then(article => ({
+props: {
+// We add an `ssg` field to the page props,
+// which will be provided to the Nextra `useSSG` hook.
+ssg: {
+articles: article?.items
+}
+},
+// The page will be considered as stale and regenerated every 60 seconds.
+revalidate: 60
+}))
+}
+
+export const Typescript = () => {
+  // Get the data from SSG, and render it as a component.
+  const { articles } = useSSG();
+
+  return (
+    <div>
+      {articles?.map((item, i) => {
+        return <BookmarkCard data={item} />;
+      })}
+    </div>
+  );
+};
+
+export default Typescript;
