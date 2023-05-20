@@ -30,7 +30,20 @@ const Meta = () => {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta name="description" content={`Tugrul Erdem Dogru - ted2xmen.dev`} />
-      {/* <meta property="og:image" content={HOME_OG_IMAGE_URL} /> */}
+      <meta property="og:image" content="hero.png"></meta>
+      <meta
+        property="twitter:title"
+        content="Tugrul Erdem Dogru - ted2xmen.dev"
+      ></meta>
+      <meta
+        property="og:title"
+        content="Tugrul Erdem Dogru - ted2xmen.dev"
+      ></meta>
+      <meta property="og:url" content="https://ted2xmen.dev/"></meta>
+      <meta
+        property="og:description"
+        content="I am a self-taught frontend developer who is curious and passionate about learning new technologies."
+      />
     </Head>
   );
 };
