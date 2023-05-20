@@ -1,0 +1,44 @@
+.spinner {
+  --accent: #3e985f;
+  --max-scale: 2;
+  --speed: 0.4;
+  display: flex;
+  gap: 0.3em;
+}
+
+.spinner span {
+  display: block;
+  background-color: var(--accent);
+  box-shadow: 1px 1px 5px 0.2px var(--accent);
+  width: 0.4px;
+  height: 0.4em;
+}
+
+.spinner .spinner-part-0 {
+  background-color: #299452;
+  animation: load432 calc(1s / var(--speed)) linear infinite;
+}
+
+.spinner .spinner-part-1 {
+  background-color: #26c161;
+
+  animation: load432 calc(0.16s / var(--speed)) linear infinite;
+}
+
+.spinner .spinner-part-2 {
+  background-color: #077e35;
+
+  animation: load432 calc(0.4s / var(--speed)) linear infinite;
+}
+
+.spinner .spinner-part-3 {
+  background-color: #75e19e;
+
+  animation: load432 calc(0.5s / var(--speed)) linear infinite;
+}
+
+@keyframes load432 {
+  50% {
+    transform: scaleY(var(--max-scale));
+  }
+}
