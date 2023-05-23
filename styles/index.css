@@ -79,9 +79,6 @@ p {
   .info-container {
     @apply flex mt-sm justify-center mx-auto flex-wrap md:flex-nowrap gap-lg md:gap-sm items-center max-w-2xl space-x-sm;
   }
-  .app-container {
-    @apply min-h-screen max-w-4xl mt-10 md:mt-16 mx-auto;
-  }
 
   .link-container {
     @apply space-x-8 mt-8 flex justify-center my-4;

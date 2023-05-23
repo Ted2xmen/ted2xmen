@@ -27,23 +27,23 @@ const Meta = () => {
         color="#000000"
       />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
+
       <meta name="theme-color" content="#000" />
-      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta name="description" content={`Tugrul Erdem Dogru - ted2xmen.dev`} />
-      <meta property="og:image" content="hero.png"></meta>
-      <meta
-        property="twitter:title"
-        content="Tugrul Erdem Dogru - ted2xmen.dev"
-      ></meta>
-      <meta
-        property="og:title"
-        content="Tugrul Erdem Dogru - ted2xmen.dev"
-      ></meta>
-      <meta property="og:url" content="https://ted2xmen.dev/"></meta>
+      <meta name="description" content="Tugrul Erdem Dogru - ted2xmen.dev" />
+      <meta property="og:image" content="/hero.png" />
+      <meta property="og:title" content="Tugrul Erdem Dogru - ted2xmen.dev" />
+      <meta property="og:url" content="https://ted2xmen.dev/" />
       <meta
         property="og:description"
         content="I am a self-taught frontend developer who is curious and passionate about learning new technologies."
       />
+
+      <meta
+        property="twitter:title"
+        content="Tugrul Erdem Dogru - ted2xmen.dev"
+      />
+
+      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
     </Head>
   );
 };

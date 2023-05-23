@@ -1,8 +1,8 @@
 import React from "react";
-import Links from "../contact/links";
-import Last from "../footer/last";
-import Code from "../elements/code";
 import { useRouter } from "next/router";
+import Last from "../components/footer/last";
+import Code from "../components/elements/code";
+import Links from "../components/contact/links";
 
 const Footer = () => {
   const router = useRouter();

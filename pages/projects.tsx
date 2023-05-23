@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../layouts/layout";
-import CardWrapper from "../components/elements/cardWrapper";
+import DataContainer from "../ui/container/dataContainer";
 
-const About = () => {
+const Projects = () => {
+  const [filtered, setFiltered] = useState(
+    []?.filter((f) => f.topics.includes("ted2xmen"))
+  );
+
   return (
-    <Layout>
+    <Layout title="Projects">
       <div className="info-text space-y-6 px-2 mt-8 md:px-12">
         <p className="mt-2">
           I mostly use <span className="text-slate-300">Next.js</span> for my
@@ -28,8 +32,15 @@ const About = () => {
         </p>
         <p>...soon 🚧</p>
       </div>
+
+      <DataContainer
+        type="project"
+        limit={5}
+        data={filtered}
+        title="Projects"
+      />
     </Layout>
   );
 };
 
-export default About;
+export default Projects;

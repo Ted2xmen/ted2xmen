@@ -1,22 +1,36 @@
 import React from "react";
 import Layout from "../layouts/layout";
-import Head from "next/head";
-import Info from "../components/intro/info";
 import Links from "../components/contact/links";
+import me from "../public/me.jpeg";
+import Image from "next/image";
+import { blurData } from "../lib/functions";
 
 const Index = () => {
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>{`Tugrul Erdem Dogru - Ted2xmen.dev`}</title>
-        </Head>
-        <Info />
-        <div className="mt-sm py-2">
-          <Links />
+    <Layout title="Tugrul Erdem Dogru - Ted2xmen.dev">
+      <div className="info-container">
+        <div className="w-1/2 md:w-1/1">
+          <Image
+            className="rounded-1"
+            blurDataURL={blurData}
+            placeholder="blur"
+            src={me}
+            alt="Tugrul"
+          />
         </div>
-      </Layout>
-    </>
+        <div>
+          <p>
+            I am a self-taught frontend developer who is curious and passionate
+            about learning new technologies. I am motivated to be a part of a
+            team where I can improve myself and to contribute, and learn from,
+            other talented colleagues on complex and interesting projects.
+          </p>
+        </div>
+      </div>
+      <div className="mt-sm ">
+        <Links />
+      </div>
+    </Layout>
   );
 };
 

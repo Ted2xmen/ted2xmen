@@ -1,14 +1,14 @@
 import React from "react";
 import Layout from "../layouts/layout";
 import { getAllPosts } from "../lib/api";
-import CardContainer from "../components/blog/cardContainer";
+import DataContainer from "../ui/container/dataContainer";
 
 const Blog = ({ allPosts }) => {
   const posts = allPosts;
 
   return (
-    <Layout>
-      <CardContainer cards={posts} />
+    <Layout title="Blog">
+      <DataContainer type="post" title="Blog" limit={2} data={posts} />
     </Layout>
   );
 };

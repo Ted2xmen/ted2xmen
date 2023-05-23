@@ -4,7 +4,7 @@ import React from "react";
 const Links = () => {
   return (
     <ul className="link-container">
-      <li className="custom-link">
+      <li className="custom-link ">
         <Link
           href="https://www.linkedin.com/in/tugrulerdemdogru/"
           target="_blank"
