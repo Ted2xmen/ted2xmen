@@ -16,7 +16,7 @@ const Bookmarks = ({ bookmarks, repos }) => {
         </p>
         <DataContainer
           type="list"
-          //title="Favorite Videos and Latest Stars"
+          title="Latest Stars"
           limit={4}
           data={repos}
         />
