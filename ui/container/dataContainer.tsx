@@ -25,14 +25,7 @@ const DataContainer = ({ limit, data, title, type }) => {
       <h4 className="p-3 mb-3 font-bold text-slate-100"> {title} </h4>
       {type === "list" && (
         <div className="gap-3 md:flex rounded-md">
-          {/* <div className="space-y-2 w-1/1 flex gap-3">
-            <img
-              src="https://i.ytimg.com/vi/d2yNsZd5PMs/mqdefault.jpg"
-              alt=""
-            />
-          </div> */}
           <div className="w-full">
-            {" "}
             {data?.slice(0, limit).map((item: any, index: number) => {
               return renderCardByType(item, index);
             })}
@@ -41,7 +34,13 @@ const DataContainer = ({ limit, data, title, type }) => {
       )}
 
       {type !== "list" && (
-        <div className="flex flex-col gap-5">
+        <div
+          className={`${
+            type === "project"
+              ? "flex w-full flex-wrap gap-3"
+              : "flex flex-col gap-5"
+          }`}
+        >
           {data?.slice(0, limit).map((item: any, index: number) => {
             return renderCardByType(item, index);
           })}

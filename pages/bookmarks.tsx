@@ -55,17 +55,4 @@ export const getStaticProps = async () => {
   };
 };
 
-// export async function getStaticProps() {
-//   const res = await fetch(
-//     "https://api.github.com/users/ted2xmen/repos?per_page=100&page=1"
-//   );
-//   const projects = await res.json();
-
-//   return {
-//     props: {
-//       projects,
-//     },
-//   };
-// }
-
 export default Bookmarks;
