@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Layout from "../layouts/layout";
 import DataContainer from "../ui/container/dataContainer";
 import Link from "next/link";
+import Loader from "../ui/loader";
 
 const Projects = ({ projects }) => {
   const [filtered, setFiltered] = useState(
@@ -42,8 +43,8 @@ const Projects = ({ projects }) => {
         </svg>
       </div>
 
-      <DataContainer type="project" limit={5} data={filtered} title="" />
-
+      <DataContainer type="project" limit={2} data={filtered} title="" />
+      <Loader />
       <p className="text-center  text-lg max-w-lg my-5 mx-auto text-emerald-100 bg-emerald-800 p-4 rounded-md">
         {" "}
         The data on this page comes from Github API. I filtered and listed my
