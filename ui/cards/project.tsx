@@ -4,8 +4,6 @@ import Link from "next/link";
 import CardTitle from "../title/CardTitle";
 
 const Project = ({ data }) => {
-  console.log(data);
-
   return (
     <div className="flex items-center justify-center">
       <div

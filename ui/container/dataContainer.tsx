@@ -37,7 +37,7 @@ const DataContainer = ({ limit, data, title, type }) => {
         <div
           className={`${
             type === "project"
-              ? "flex w-full flex-wrap gap-3"
+              ? "flex w-full flex-wrap justify-center gap-5"
               : "flex flex-col gap-5"
           }`}
         >

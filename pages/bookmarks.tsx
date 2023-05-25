@@ -3,8 +3,6 @@ import Layout from "../layouts/layout";
 import DataContainer from "../ui/container/dataContainer";
 
 const Bookmarks = ({ bookmarks, repos }) => {
-  console.log(repos);
-
   return (
     <Layout title="Bookmarks">
       <div className="space-y-6">
