@@ -50,6 +50,7 @@ export const getStaticProps = async () => {
       bookmarks,
       repos,
     },
+    revalidate: 100,
   };
 };
 
