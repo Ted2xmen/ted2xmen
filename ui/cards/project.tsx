@@ -7,7 +7,7 @@ const Project = ({ data }) => {
   return (
     <div className="flex items-center justify-center">
       <div
-        className="rounded-xl h-full  overflow-hidden m-2 flex border border-slate-700 flex-col space-y-2"
+        className="rounded-xl h-full overflow-hidden m-2 flex border border-slate-700 flex-col space-y-2"
         style={{ maxWidth: "310px" }}
       >
         <Link href={data.html_url} aria-label={`Link to ${data.name}`}>
@@ -19,7 +19,7 @@ const Project = ({ data }) => {
             height={306}
           />
         </Link>
-        <div className="flex  text-center text-sm items-center justify-center">
+        <div className="flex text-center text-sm items-center justify-center">
           <a
             href={data.html_url}
             target="_blank"

@@ -18,7 +18,7 @@ const Projects = ({ projects }) => {
         project images, I assigned the project id to the images.
       </p>
 
-      <DataContainer type="project" limit={2} data={filtered} title="" />
+      <DataContainer type="project" limit={4} data={filtered} title="" />
 
       <div className="mx-auto flex flex-col justify-center mt-8 items-center">
         <Link href="https://github.com/Ted2xmen" target="_blank">
