@@ -1,0 +1,32 @@
+---
+import { HOME_DATA } from "../consts";
+import AppLayout from "../layouts/AppLayout.astro";
+import Biography from "../components/shared/Biography";
+import Posts from "../components/shared/Posts";
+import { allPosts } from "./../utils";
+import SocialLinks from "../components/SocialLinks";
+import QuickLinks from "../components/QuickLinks";
+import FeaturedProjects from "../components/FeaturedProjects";
+import Wrapper from "../components/shared/Wrapper";
+---
+
+<AppLayout
+  title="Home"
+  description={HOME_DATA.biography}
+  pubDate={new Date("February 08 2024")}
+  heroImage="/blog-placeholder-about.jpg">
+  <section class="flex max-w-4xl flex-col w-full gap-2">
+    <!-- <Wrapper> -->
+    <Biography info={HOME_DATA.biography} image={HOME_DATA.image} />
+    <section
+      class="flex items-center py-8 md:justify-between md:flex-row flex-col-reverse justify-center gap-8 md:gap-0">
+      <QuickLinks />
+      <SocialLinks />
+    </section>
+    <!-- </Wrapper> -->
+    <section class="flex flex-col gap-2">
+      <!-- <FeaturedProjects client:visible data={allPosts} /> -->
+      <Posts client:visible data={allPosts} />
+    </section>
+  </section>
+</AppLayout>

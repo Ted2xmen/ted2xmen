@@ -1,0 +1,40 @@
+---
+import { HOME_DATA, MENU_ITEMS } from "../consts";
+import Logo from "../components/assets/Logo";
+const { pathname } = Astro.url;
+
+const navbarStyle =
+  "flex justify-center md:justify-between text-sm bg-[linear-gradient(110deg,#000103,45%,#484643,55%,#000103)] bg-[length:200%_100%] animate-shimmer space-x-5 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 px-6 py-3 rounded-full";
+---
+
+<nav class="pt-5 flex justify-center">
+  <ul class={navbarStyle}>
+    <a href={HOME_DATA.href} class="flex items-center gap-2">
+      <Logo />
+      <div
+        class={`hidden md:block ${
+          pathname === HOME_DATA.href ? "text-primary" : "text-main/70"
+        }`}>
+        ted2xmen.dev
+      </div>
+    </a>
+
+    <div class="flex items-center space-x-5">
+      {
+        MENU_ITEMS.map((item) => {
+          return (
+            <li>
+              <a
+                href={item.href}
+                class={`${
+                  pathname === item.href ? "text-primary" : "text-main"
+                }`}>
+                {item.name !== "rss" ? item.name : "rss"}
+              </a>
+            </li>
+          );
+        })
+      }
+    </div>
+  </ul>
+</nav>

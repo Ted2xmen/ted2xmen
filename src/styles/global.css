@@ -1,0 +1,54 @@
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Atkinson";
+  src: url("/fonts/atkinson-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson";
+  src: url("/fonts/atkinson-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Atkinson", sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  background-color: #070905;
+  color: #d1d5db;
+}
+
+::selection {
+  color: #070905;
+  @apply bg-primary;
+}
+
+.main {
+  @apply flex-col max-w-4xl mx-auto px-2 flex items-center pt-2 pb-5;
+}
+
+.backgroundImage {
+  @apply bg-bottom bg-cover h-[45vh] bg-no-repeat bg-[url('src/components/assets/backgroundImage.jpg')] bg-opacity-20;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply text-2xl font-bold;
+}

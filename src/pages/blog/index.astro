@@ -1,0 +1,10 @@
+---
+import AppLayout from "../../layouts/AppLayout.astro";
+import Posts from "../../components/shared/Posts";
+import { allPosts } from "../../utils";
+---
+
+<AppLayout title="Blog" description="Blog">
+  <div class="text-xl font-bold text-main pb-5">Blog</div>
+  <Posts client:visible data={allPosts} />
+</AppLayout>

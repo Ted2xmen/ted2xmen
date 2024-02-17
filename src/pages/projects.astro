@@ -1,0 +1,14 @@
+---
+import ProjectList from "../components/ProjectList";
+import { HOME_DATA } from "../consts";
+import AppLayout from "../layouts/AppLayout.astro";
+---
+
+<AppLayout
+  title="Projects"
+  description={HOME_DATA.biography}
+  pubDate={new Date("February 09 2024")}
+  heroImage="/blog-placeholder-about.jpg">
+  <div class="text-xl font-bold text-main pb-5">Projects</div>
+  <ProjectList client:visible />
+</AppLayout>
