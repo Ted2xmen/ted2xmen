@@ -17,7 +17,9 @@ const { title, description } = Astro.props;
   </head>
 
   <body>
-    <header class="backgroundImage">
+    <header
+      style={{ backgroundImage: "url('./backgroundImage.jpg')" }}
+      class="backgroundImage">
       <Navigation />
       <ViewTransitions />
     </header>
