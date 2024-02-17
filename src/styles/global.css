@@ -42,7 +42,7 @@ body {
 }
 
 .backgroundImage {
-  @apply bg-bottom bg-cover h-[45vh] bg-no-repeat bg-[url('src/components/assets/backgroundImage.jpg')] bg-opacity-20;
+  @apply bg-bottom bg-cover h-[45vh] bg-no-repeat bg-[url('backgroundImage.jpg')] bg-opacity-20;
 }
 
 h1 {
