@@ -68,6 +68,6 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-white text-slate-700;
+    @apply bg-white text-black;
   }
 }

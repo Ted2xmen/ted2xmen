@@ -1,18 +1,17 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import { Archivo } from "next/font/google";
-import { config } from "@/lib/config";
+import { Manrope } from "next/font/google";
 import Script from "next/script";
-import Navbar from "@/components/navbar";
 
-const font = Archivo({
+const font = Manrope({
   weight: ["400", "700"],
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: config.title,
-  description: config.description,
+export const metadata = {
+  title: "Ted2xmen | ted2xmen.dev",
+  description: "Software Developer",
+  url: "https://ted2xmen.dev",
+  keywords: ["software developer", "front-end developer"],
 };
 
 export default function RootLayout({
@@ -24,14 +23,13 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script
-          src={process.env.UMAMI_URL}
-          data-website-id={process.env.UMAMI_ID}
+          src="https://cloud.umami.is/script.js"
+          data-website-id="84eefeb2-350a-4529-8756-e42c91c2f4a8"
+          strategy="afterInteractive"
         />
       </head>
-      <body className={`${font.className}  antialiased`}>
-        <div className="absolute top-0 z-[-2] h-screen w-screen bg-slate-200 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(0, 255, 38, 0.3),rgba(255,255,255,0))]"></div>
-        <Navbar />
-        <main className="max-w-5xl mx-auto p-8">{children}</main>
+      <body className={`${font.className} antialiased`}>
+        <main className="mx-auto max-w-5xl p-4">{children}</main>
       </body>
     </html>
   );
