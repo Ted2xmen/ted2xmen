@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 type AppStoreAppLayoutProps = {
     title: string
@@ -58,7 +59,7 @@ const AppStoreAppLayout: React.FC<AppStoreAppLayoutProps> = ({
                 <section className="grid grid-cols-1 gap-3 md:grid-cols-3">
                     {firstThreeImages.map((src, idx) => (
                         <div key={idx} className="rounded-md">
-                            <img src={src} alt={`screenshot-${idx + 1}`} className="h-full shadow w-full rounded-xl object-contain" />
+                                <Image src={src} alt={`screenshot-${idx + 1}`} className="h-full shadow w-full rounded-xl object-contain" />
                         </div>
                     ))}
                 </section>

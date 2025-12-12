@@ -4,12 +4,12 @@ const TermsPage = () => {
   return (
     <div className="mx-auto max-w-3xl p-6 space-y-6">
       <h1 className="text-3xl font-semibold">Terms of Service</h1>
-      <p><strong>Last Updated:</strong> [December 12, 2025]</p>
+      <p><strong>Last Updated:</strong> December 12, 2025</p>
 
       <h2 className="text-2xl font-semibold">1. Introduction</h2>
       <p>
-        Welcome to Era Portrait ("we," "our," or "us"). By downloading or using our mobile application ("App"),
-        you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the App.
+        Welcome to Era Portrait (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). By downloading or using our mobile application (&quot;App&quot;),
+        you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to these Terms, please do not use the App.
       </p>
 
       <h2 className="text-2xl font-semibold">2. Description of Service</h2>
@@ -22,7 +22,7 @@ const TermsPage = () => {
       <ul className="list-disc pl-6 space-y-1">
         <li>AI generation is unpredictable and may produce artifacts, distortions, or unexpected results.</li>
         <li>We do not guarantee that the results will be 100% accurate or free of errors.</li>
-        <li>The Service is provided "as is" without warranties of any kind regarding the quality of the generated images.</li>
+        <li>The Service is provided &quot;as is&quot; without warranties of any kind regarding the quality of the generated images.</li>
       </ul>
 
       <h2 className="text-2xl font-semibold">4. Subscriptions and Billing</h2>
@@ -53,7 +53,7 @@ const TermsPage = () => {
 
       <h2 className="text-2xl font-semibold">7. Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, [Adınız veya Şirket Adınız] shall not be liable for any indirect,
+        To the fullest extent permitted by law, we shall not be liable for any indirect,
         incidental, or consequential damages arising out of your use of the App.
       </p>
 

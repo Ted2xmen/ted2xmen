@@ -6,12 +6,12 @@ const EraPortraitAppPrivacyPolicyPage = () => {
     <div className="mx-auto max-w-3xl p-6 space-y-6">
       <div className="text-sm text-gray-500">Back to <Link href="/apps/era-portrait" className="text-blue-500 hover:underline">Era Portrait: AI Avatar</Link></div>
     <h1 className="text-3xl font-semibold">Privacy Policy</h1>
-    <p><strong>Last Updated:</strong> December 8, 2025</p>
+    <p><strong>Last Updated:</strong> December 12, 2025</p>
 
     <p>
-      Tuğrul Erdem Dogru ("Developer", "we", "our", or "us") respects the privacy of our users
-      ("user", "you"). This Privacy Policy explains how we collect, use, disclose, and safeguard your
-      information when you use our mobile application, Era Portrait: AI Avatar (the "Application").
+      Tuğrul Erdem Dogru (&quot;Developer&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) respects the privacy of our users
+      (&quot;user&quot;, &quot;you&quot;). This Privacy Policy explains how we collect, use, disclose, and safeguard your
+      information when you use our mobile application, Era Portrait: AI Avatar (the &quot;Application&quot;).
     </p>
     <p>
       Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy,
@@ -82,7 +82,7 @@ const EraPortraitAppPrivacyPolicyPage = () => {
     <ul className="list-disc pl-6 space-y-1">
       <li><strong>RevenueCat:</strong> Used for managing in-app purchases and subscriptions.</li>
       <li><strong>Supabase:</strong> Used for authentication and database management.</li>
-      <li><strong>[Name of AI API Provider, e.g., Replicate / Stability AI]:</strong> Used for image processing and AI generation.</li>
+      <li><strong>Replicate:</strong> Used for image processing and AI generation.</li>
     </ul>
     <p>Please review the privacy policies of these third-party service providers.</p>
 
