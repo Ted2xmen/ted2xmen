@@ -12,7 +12,7 @@ export const rssParser = async (url: string) => {
   return parsedFeed;
 };
 
-export const getRecentBookmarks = async () => {
+{/* export const getRecentBookmarks = async () => {
   try {
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_SITE_URL}/api/bookmarks`
@@ -27,4 +27,4 @@ export const getRecentBookmarks = async () => {
     console.error("Failed to fetch recent bookmarks:", error);
     return [];
   }
-};
+}; */}
